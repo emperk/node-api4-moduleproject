@@ -11,8 +11,8 @@ server.use('/api', usersRouter)
 //   res.send(`<h1>Work in Progress</h1>`)
 // })
 
-server.get('/', (req, res) => {
-  res.send(`<h1>Work in Progress!</h1>`)
-})
+// server.get('/', (req, res) => {
+//   res.send(`<h1>Work in Progress!</h1>`)
+// })
 
 module.exports = server;
