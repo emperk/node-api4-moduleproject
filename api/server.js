@@ -8,8 +8,8 @@ server.use(cors());
 
 server.use('/api', usersRouter)
 
-server.use('*', (req, res) => {
-  res.send(`<h1>Work in Progress</h1>`)
-})
+// server.use('*', (req, res) => {
+//   res.send(`<h1>Work in Progress</h1>`)
+// })
 
 module.exports = server;
